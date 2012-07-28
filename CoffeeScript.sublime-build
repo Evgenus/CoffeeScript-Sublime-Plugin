@@ -3,4 +3,8 @@
 ,	"path": "/usr/local/bin:$PATH"
 ,	"selector": "source.coffee"
 ,	"working_dir": "$project_path"
+,	"windows": {
+		"path": "$PATH"
+,		"shell": true
+	}
 }
